@@ -1,0 +1,26 @@
+{
+  "name": "Website-for-my-Dad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^10.4.0",
+    "tailwindcss": "^2.2.19"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/styles.css -o ./build/styles.css --JIT --purge=\"./*.html\" --watch",
+    "tailwind-full": "npx tailwindcss -i ./src/styles.css -o ./build/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbidAlWassie/Website-for-my-Dad.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbidAlWassie/Website-for-my-Dad/issues"
+  },
+  "homepage": "https://github.com/AbidAlWassie/Website-for-my-Dad#readme"
+}
