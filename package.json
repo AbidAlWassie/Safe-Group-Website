@@ -10,7 +10,9 @@
   "devDependencies": {},
   "scripts": {
     "tailwind": "npx tailwindcss -i ./src/styles.css -o ./build/styles.css --JIT --purge=\"./*.html\" --watch",
-    "tailwind-full": "npx tailwindcss -i ./src/styles.css -o ./build/styles.css"
+    "tailwind-full": "npx tailwindcss -i ./src/styles.css -o ./build/styles.css",
+    "tailwind-full-w": "npx tailwindcss -i ./src/styles.css -o ./build/styles.css --JIT --purge=\"./*.html\" --watch"
+
   },
   "repository": {
     "type": "git",

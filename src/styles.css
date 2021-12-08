@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg {
+  @apply bg-gray-900 text-gray-100;
+}
+
+.nav-list {
+  @apply pr-3;
+}
