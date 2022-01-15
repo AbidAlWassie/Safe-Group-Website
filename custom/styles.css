@@ -211,3 +211,10 @@ button:focus {
 .nh {
   height: 0%;
 }
+
+.active {
+  border-bottom: 3px solid rgb(233, 62, 204);
+  /* color: plum;
+  font-weight: 700; */
+  /* @apply text-purple-300 font-bold; */
+}
