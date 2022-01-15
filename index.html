@@ -4,85 +4,142 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/paw.png">
   <link rel="stylesheet" href="build/styles.css">
-  <title>Document</title>
+  <link rel="stylesheet" href="custom/styles.css">
+  <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  <title>Safe Group of Sanitary Napkin</title>
 </head>
-<body class="bg">
-  <!-- Container Start -->
-  <div class="container">
-    <nav id="navbar" class="bg-gray-900">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex items-center justify-between h-16">
-          <div class="flex items-center">
-            <!-- Brand Logo -->
-            <div class="nav-brand flex-shrink-0">
-              <!-- Brand Logo -->
-              <img class="h-8 w-8" src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg" alt="Workflow">
-            </div>
-  
-            
-            <!-- <div class="hidden md:block" id="menu-content"> -->
-            <div class="" id="menu-content">
-              <ul class="nav-list list-reset" id="navList">
-                <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                <li class="active">
-                  <a href="#section1" class="nav-btn" aria-current="page">Home</a>
-                </li>
-                
-                <li>
-                  <a href="#section2" class="nav-btn">Skills</a>
-                </li>
-                
-                <li>
-                  <a href="#section3" class="nav-btn">About</a>
-                </li>
-  
-                <li>
-                  <a href="#section4" class="nav-btn">Contact</a>
-                </li>
-              </ul>
-  
-            </div>
-  
-          </div>
-  
-  
-          
-          <div class="-mr-2 flex md:hidden">
-            <!-- Mobile menu button -->
-            <button id="navBtn" type="button" class="nav-button" aria-controls="mobile-menu" aria-expanded="false">
-              <span class="sr-only">Open main menu</span>
-              <!--
-                Heroicon name: outline/menu
-  
-                Menu open: "hidden", Menu closed: "block"
-              -->
-              <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
-              <!--
-                Heroicon name: outline/x
-  
-                Menu open: "block", Menu closed: "hidden"
-              -->
-              <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            </button>
-            <!-- Mobile menu button end -->
-          </div>
-  
-  
+<body class="bg-gray-900 focus:outline-none">
+  <header>
+
+    <!-- Nav Start -->
+    <nav id="navbar" class="navbar bg-black p-5 z-50 sticky">
+
+      <div class="container flex justify-between items-center mx-auto">
+      <!-- <div class="container flex justify-between items-center mx-auto px-8 md:px-14"> -->
+        <div class="brand">
+          <a href="javascript:void(0)" class="bg-gradient-to-r from-blue-400  to-pink-500 text-transparent bg-clip-text font-semibold text-4xl font-bold">Safe</a>
         </div>
+
+
+        
+        <ul class="nav-links flex flex-row">
+          <li><a href="javascript:void(0)" class="text-white font-semibold text-2xl mt-2 hidden lg:inline">Explore</a></li>
+
+
+        </ul>
+
+<!-- Hamburger Menu Button End -->
+        <div class="navBtnContainer -mr-2 flex lg:hidden items-left justify-left" onclick="navToggle()">
+          <!-- Mobile menu button -->
+          <button id="navBtn" type="button" class="bg-gray-800 inline-flex p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-blue-500" aria-controls="mobile-menu" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <!--
+              Heroicon name: outline/menu
+
+              Menu open: "hidden", Menu closed: "block"
+            -->
+            <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+            <!--
+              Heroicon name: outline/x
+
+              Menu open: "block", Menu closed: "hidden"
+            -->
+            <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+          </button>
+          <!-- Mobile menu button end -->
+        </div>
+<!-- Hamburger Menu Button End -->
+
+
+  
+</a>
+<!-- Mobile Nav End -->
+
       </div>
-  
-  <!-- Mobile menu, show/hide based on menu state. -->
-  <!-- Mobile nav end -->
       
-  
     </nav>
     <!-- Nav End -->
-  </div>
-  <!-- Container End -->
+
+
+
+    <div class="dropdownContainer block lg:hidden relative inline-block text-left ml-5">
+      <div id="navMenu" class="overlay">
+        <div class="overlay-content">
+          
+          
+  
+          
+  
+  
+          <a href="#">Home</a>
+          <a href="#">Services</a>
+          <a href="#">Contact</a>
+          <a href="#">Abous</a>
+        </div>
+      </div>
+      <!-- Dropdown End -->
+    </div>
+
+    
+  </header>
+
+  <section>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/alvan-nee-T-0EW-SEbsE-unsplash.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/anoir-chafik-2_3c4dIFYFU-unsplash.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/pexels-artem-beliaikin-1485637.jpg" alt=""></div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <section class="hero m-10">
+    <div class="container flex justify-between items-center mx-auto">
+    <!-- <div class="container flex justify-between items-center mx-auto px-8 md:px-14"> -->
+
+        
+      <div class="side-info flex justify-between mx-auto flex-col md:flex-row">
+        <div class="side-text flex-col">
+          <p class="text-2xl mb-10">Help prevent early marriage</p>
+
+          <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, sint. Doloremque, earum repellendus. Alias ullam ab veritatis repellat soluta, eos delectus et corrupti voluptatibus beatae amet culpa, laudantium iste praesentium. Hic cupiditate quis dolore, facere molestiae atque adipisci deserunt distinctio quae excepturi in consequatur rerum laboriosam provident asperiores, ipsum necessitatibus nam exercitationem corrupti labore delectus beatae odit saepe. Omnis voluptate eos enim tempore nihil obcaecati deserunt asperiores maiores harum autem odit aperiam, quam nesciunt assumenda, maxime vero reprehenderit architecto repellendus cumque delectus fuga nisi voluptates consectetur commodi? Iusto labore possimus, reiciendis, enim vel porro eligendi in quisquam dicta, saepe molestiae.</p>
+        </div>
+        
+        <img class="side-img" src="img/cat1.jpg" alt="">
+      </div>
+      
+
+    </div>
+  </section>
+
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+  <script src="js/script.js"></script>
 </body>
 </html>
