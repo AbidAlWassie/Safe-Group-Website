@@ -1431,6 +1431,11 @@ video {
   color: rgba(99, 102, 241, var(--tw-text-opacity));
 }
 
+.hover\:text-indigo-400:hover {
+  --tw-text-opacity: 1;
+  color: rgba(129, 140, 248, var(--tw-text-opacity));
+}
+
 .focus\:border-indigo-500:focus {
   --tw-border-opacity: 1;
   border-color: rgba(99, 102, 241, var(--tw-border-opacity));
