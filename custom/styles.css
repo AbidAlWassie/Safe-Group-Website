@@ -242,3 +242,43 @@ header {
 .section-img-hig {
   height: 934px;
 }
+
+.staff-content {
+  margin-top: 50px;
+  margin-bottom: 5em;
+  padding: 70px 25px 25px 25px;
+  border: 2px solid rgba(98, 98, 110, 0.575);
+  position: relative;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.staff-content .staff-avatar {
+  position: absolute;
+  top: -70px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.staff-content .staff-avatar > img {
+  width: 140px;
+  height: 140px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.staff-info {
+  /* border: 2px solid rgba(45, 64, 89, 0.1); */
+  padding: 30px 30px 10px;
+  position: relative;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
