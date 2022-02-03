@@ -341,8 +341,11 @@ ul.social-icons li a i.fa {
   font-size: 1.2rem;
 }
 
-a.mr-6 {
+a.mx-3 {
   font-size: 1.4rem;
+}
+
+.justify-center i {
 }
 
 /* Footer Styles */
