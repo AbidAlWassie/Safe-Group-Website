@@ -173,7 +173,7 @@ button:focus {
   font-size: 36px;
   color: #818181;
   display: block;
-  margin: 20px 55px 20px 55px;
+  margin: 20px 65px 20px 65px;
   /* transition: 0.1s; */
 }
 
@@ -349,3 +349,7 @@ a.mx-3 {
 }
 
 /* Footer Styles */
+
+.m-links li {
+  text-transform: capitalize !important;
+}
