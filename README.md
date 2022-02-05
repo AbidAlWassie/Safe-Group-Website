@@ -4,4 +4,4 @@ Checkout the Website
 
 [Run it](https://sanimart.netlify.app/) on Netlify.
 
-[Run it](https://sanimart.org/) on actaul domain.
+[Run it](https://sanimart.org/) on actual domain.
