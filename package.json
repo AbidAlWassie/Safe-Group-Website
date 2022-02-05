@@ -9,8 +9,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "tailwind": "npx tailwindcss -i ./src/styles.css -o ./build/styles.css --JIT --purge=\"./*.html\" --watch",
+    "tailwind": "npx tailwindcss -i ./src/styles.css -o ./build/styles.css --JIT --content=\"./*.html\" --watch",
     "tailwind-full": "npx tailwindcss -i ./src/styles.css -o ./build/styles.css",
+    "tailwind-final": "npx tailwindcss -i ./src/styles.css -o ./build/styles.css --JIT --content=\"./*.html\"",
     "tailwind-full-w": "npx tailwindcss -i ./src/styles.css -o ./build/styles.css --JIT --purge=\"./*.html\" --watch"
 
   },
