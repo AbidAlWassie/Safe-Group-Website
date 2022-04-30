@@ -1,4 +1,4 @@
-# A Website for my Dad
+# A Website for my Sanimart Project
 
 Checkout the Website
 
