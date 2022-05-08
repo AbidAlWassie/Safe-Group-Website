@@ -1,5 +1,5 @@
 {
-  "name": "Website-for-my-Dad",
+  "name": "Safe-Group-Website",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,13 +17,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AbidAlWassie/Website-for-my-Dad.git"
+    "url": "git+https://github.com/AbidAlWassie/Safe-Group-Website.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AbidAlWassie/Website-for-my-Dad/issues"
+    "url": "https://github.com/AbidAlWassie/Safe-Group-Website/issues"
   },
-  "homepage": "https://github.com/AbidAlWassie/Website-for-my-Dad#readme"
+  "homepage": "https://github.com/AbidAlWassie/Safe-Group-Website#readme"
 }
