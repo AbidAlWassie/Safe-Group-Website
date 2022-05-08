@@ -1,6 +1,6 @@
 [[redirects]]
   from = "http://sanimart.org"
-  to = "https://sanimart.org/:splat"
+  to = "https://www.sanimart.org/:splat"
   status = 302
   force = true
 
@@ -12,6 +12,6 @@
 
 [[redirects]]
   from = "sanimart.org"
-  to = "https://sanimart.org/:splat"
+  to = "https://www.sanimart.org/:splat"
   status = 302
   force = true
