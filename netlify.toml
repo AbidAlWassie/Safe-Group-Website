@@ -1,17 +1,17 @@
 [[redirects]]
-  from = "http://sanimart.org"
+  from = "http://sanimart.org/*"
   to = "https://www.sanimart.org/:splat"
   status = 302
   force = true
 
 [[redirects]]
-  from = "www.sanimart.org/*"
-  to = "https://www.sanimart.org/:splat"
+  from = "sanimart.org/*"
+  to = "https://sanimart.org/:splat"
   status = 302
   force = true
 
 [[redirects]]
   from = "sanimart.org"
-  to = "https://www.sanimart.org/:splat"
+  to = "https://sanimart.org/:splat"
   status = 302
   force = true
