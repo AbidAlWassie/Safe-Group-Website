@@ -1,3 +1,3 @@
-http://sanimart.org/* https://sanimart.org/:splat 301!
+http://sanimart.org https://sanimart.org/:splat 302!
 
-sanimart.org/\* https://sanimart.org/:splat 301!
+sanimart.org https://sanimart.org/:splat 302!
