@@ -1,0 +1,17 @@
+[[redirects]]
+  from = "http://sanimart.org/*"
+  to = "https://sanimart.org/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "www.sanimart.org/*"
+  to = "https://www.sanimart.org/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "sanimart.org/*"
+  to = "https://sanimart.org/:splat"
+  status = 301
+  force = true
