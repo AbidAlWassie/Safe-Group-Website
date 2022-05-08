@@ -5,13 +5,7 @@
   force = true
 
 [[redirects]]
-  from = "sanimart.org"
-  to = "https://sanimart.org/:splat"
-  status = 302
-  force = true
-
-[[redirects]]
-  from = "sanimart.org"
+  from = "www.sanimart.org"
   to = "https://sanimart.org/:splat"
   status = 302
   force = true
